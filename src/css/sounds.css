@@ -1,0 +1,77 @@
+.base {
+  display: grid;
+  grid-template-columns: 450px 290px;
+  border-style: groove;
+  border-width: 10px;
+  border-color: silver;
+  border-radius: 5px;
+}
+
+.buttonSide {
+  padding: 10px;
+}
+
+.panelSide {
+  background-color: beige;
+  display: grid;
+  grid-template-rows: 200px 75px 100px 50px;
+  grid-template-columns: 250px;
+}
+
+.buttonContainer {
+  text-align: center;
+  display: grid;
+  grid-template-rows: 125px 125px 125px;
+  grid-template-columns: 125px 125px 125px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.buttonContainer button {
+  border-style: outset;
+  border-width: 10px;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  color: dimgray;
+  background-color: ghostwhite;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.buttonCols:nth-child(even) button:active {
+  border-color: lightgreen;
+  background-color: lightgreen;
+}
+
+.buttonCols:nth-child(odd) button:active {
+  border-color: lightskyblue;
+  background-color: lightskyblue
+}
+
+.buttonSide .btn {
+  background-color: tomato;
+  color: ivory;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px; /* Set a specific slider handle width */
+  height: 40px; /* Slider handle height */
+  background: orangered; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 10px; /* Set a specific slider handle width */
+  height: 40px; /* Slider handle height */
+  background: orangered; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.panelSide .loop {
+  color: black;
+  border-style: outset;
+  border-width: 5px;
+}

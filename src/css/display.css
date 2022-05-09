@@ -1,0 +1,41 @@
+.display {
+  background-color: darkblue;
+  min-height: 50px;
+  border-style: inset;
+  border-width: 10px;
+  color: ivory;
+}
+
+.display h4 {
+  min-height: 40px;
+  text-align: center;
+  padding-top: 5px;
+  font-weight: 700;
+}
+
+.display h6 {
+  min-height: 10px;
+  padding-left: 6px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: 125px 100px;
+}
+
+.speed {
+  text-align: left;
+}
+
+p {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-shadow: -1px 0 ivory, 0 1px ivory, 1px 0 ivory, 0 -1px ivory;
+}
+
+.panel {
+  padding-left: 15px;
+}

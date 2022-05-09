@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch:400,700&display=swap');
+
+.App {
+  background-color: mintcream;
+  min-width: 100vh;
+  min-height: 100vh;
+  font-family: 'Chakra Petch', sans-serif;
+  padding: 100px;
+}
+
+.themed-container {
+  background-color: #404040;
+  padding: 20px;
+  width: 800px;
+  border-radius: 10px;
+}
